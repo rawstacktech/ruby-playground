@@ -1,4 +1,13 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-# Specify your gem's dependencies in playground.gemspec
-gemspec
+source 'https://rubygems.org'
+
+gem 'bundler', '~> 2.0'
+gem 'guard', '~> 2.15'
+gem 'guard-bundler', '~> 2.2'
+gem 'guard-rake', '~> 1.0'
+gem 'guard-rspec', '~> 4.7'
+gem 'guard-rubocop', '~> 1.3'
+gem 'rake', '~> 10.0'
+gem 'rspec', '~> 3.0'
+gem 'rubocop', '~> 0.74.0'

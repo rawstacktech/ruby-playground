@@ -1,4 +1,4 @@
-require "playground/version"
+# frozen_string_literal: true
 
 module Playground
   class Error < StandardError; end
