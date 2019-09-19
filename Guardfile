@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+guard :bundler
+
 guard :rubocop, all_on_start: true
 
 guard :rspec, all_on_start: true, cmd: 'rspec' do
